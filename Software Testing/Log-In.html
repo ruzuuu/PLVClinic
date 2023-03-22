@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PLV Clinic</title>
+  </head>
+
+  <style>
+    body {
+      background-image: url('PLVCampus.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    }
+
+    h1 {text-align: center;
+    color: black};
+    p {text-align: center;}
+    div {text-align: center;}
+
+    .form-label {
+            font-weight: bold;
+        }
+
+        .fs-7 {
+            font-size: 0.65em;
+        }
+    </style>
+
+  <body>
+
+    <h1 >Pamantasan ng Lungsod ng Valenzuela Clinic</h1>
+
+    <form name="loginForm" 
+    class="bg-white border border-4 border-success p-3 d-flex flex-column justify-content-center align-items-center" 
+    action="Patient Form.html" method="get" onsubmit="return validateForm()">
+
+        <div class="mb-3">
+            <legend>Log-In</legend>
+        </div>
+        <div class="mb-3">
+            <label for="inputUserName" class="form-label">Username</label>
+            <input type="name" class="form-control" name="username" aria-describedby="Username Input">
+        </div>
+        <br>
+        <div class="mb-3">
+            <label for="inputPassword" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+<br>
+        <center>
+        <button type="submit" class="btn btn-success">Log In</button>
+        </center>
+    </form>
+  </body>
+</html>

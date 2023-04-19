@@ -1,0 +1,424 @@
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+    }
+}
+.page-centered {
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.login-h1 {
+    font-weight: 100;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-input {
+    font-size: 0.85em;
+    font-weight: 100;
+    border-radius: 0px !important;
+    padding: 10px 20px;
+}
+input, textarea, button, button:focus {
+    outline: none;
+    box-shadow:none !important;
+}
+.logo {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 50%;
+    background-color: royalblue;
+    margin-bottom: 30px;
+}
+.logo p {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translate(-1%,-50%);
+    -ms-transform: translateX(-1%) translateY(-50%);
+    -webkit-transform: translate(-1%,-50%);
+    font-size: 1.5em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.form-submit {
+    background-color: royalblue;
+    border: none;
+    font-weight: 100;
+    font-size: 1em;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.user {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    border: solid 3px white;
+}
+.user-info {
+    padding: 70px 10px 10px 10px;
+}
+.sidebar {
+    background-color: royalblue;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.username {
+    font-size: 1em;
+    font-weight: 100;
+    margin: 20px auto 5px auto;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+#options, #transaction, #accounting {
+    display: none;   
+}
+.user-options2 {
+    background-color: #1429bc;
+    padding: 20px 10px;
+    color: white;
+    width: 100%;
+}
+.user-options2 ul {
+    list-style: none;
+    font-weight: 100;
+    font-size: 0.8em !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.user-options2 ul li { 
+    padding: 5px 0px 5px 20px !important;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    float: none;
+}
+.user-options2 ul li:hover {
+    background-color: white;
+    color: black;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+.navigation ul {
+    list-style: none;
+    font-weight: 100;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+.navigation ul li { 
+    padding: 10px 0px 10px 20px;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    float: none;
+    color: white;
+}
+.navigation {
+    margin-top: 30px;
+}
+.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black !important;
+}
+.navigation ul li:hover {
+    background-color: white;
+    color: black;
+}
+.menu {
+    display: none;
+}
+.dashboard {
+    padding: 50px 0px 0px 0px;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.dashboard-h1 {
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.report-header {
+    padding: 10px 50px;
+    background-color: royalblue;
+    color: white;
+    font-weight: 100;
+    font-size: 1.2em;
+}
+.lilup {
+    position: relative;
+    top: -3px;
+}
+.report {
+    margin-bottom: 30px;
+}
+.optblue {
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    background-color: #2270c9;
+    margin: 5px 0px 5px 5px;
+}
+.optgreen {
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    background-color: #1e7a1e;
+    margin: 5px 0px 5px 5px;
+}
+.optred {
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    background-color: #960f13;
+    margin: 5px 0px 5px 5px;
+}
+.optbtn {
+    float: right;
+}
+#del {
+    display: none;
+}
+#mod {
+    display: none;
+}
+.tasks {
+    margin-top: 50px;
+}
+.tasklist {
+    font-size: 1.2em;
+    font-weight: 100;
+    padding: 10px;
+    display: block;
+    background: #efefef;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* CHAT */
+
+.chat {
+    position: absolute;
+    overflow-y: scroll;
+    top: 0;
+    right: 0;
+    padding: 20px 0px 0px 0px;
+    background-color: #fdfdfd;
+    height: 100vh;
+    -webkit-box-shadow: -5px 0px 32px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 0px 32px -6px rgba(0,0,0,0.75);
+    box-shadow: -5px 0px 32px -6px rgba(0,0,0,0.75);
+}
+#closeChat {
+    float: right;
+    font-size: 12px !important;
+    position: relative;
+    top: 0px;
+    cursor: pointer;
+    color: white;
+    padding: 4px 7px;
+    background-color: black;
+    border-radius: 16px;
+}
+.chat-members {
+    
+}
+.chat-h1 {
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+.mem-name {
+    color: royalblue;
+    font-size: 1em;
+    font-weight: 100;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.image {
+    padding: 0px 5%;
+    width: 20%;
+}
+.message {
+    margin: 0px 0px;
+    border-bottom: solid 1px royalblue;
+    display: block;
+    width: 82%;
+    margin-bottom: 20px;
+    width: 78%;
+    padding: 0px 1%;
+}
+.recent-message {
+    font-weight: 100;
+    font-size: 0.8em;
+    cursor: pointer;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.timeAgo {
+    font-weight: 100;
+    font-size: 0.6em;
+    float: right;
+    padding: 5px 10px;
+}
+.chat-search {
+    display: block;
+    width: 100%;
+    background-color: #e8e8e8;
+    font-weight: 100;
+    border: none;
+    font-size: 16px;
+    padding: 6px 14px;
+    border-radius: 22px;
+    margin-bottom: 30px;
+}
+.chats {
+    display: block;
+}
+.read {
+    color: black;
+}
+.member {
+    margin-top: 10px
+}
+.chat-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: solid 1px royalblue;
+}
+.unread {
+    font-size: 0.8em;
+    font-weight: 100;
+    color: white;
+    background-color: royalblue;
+    padding: 2px 8px;
+    border-radius: 20px;
+    float: right;
+}
+.mmy {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(252, 208, 122, 1);
+}
+#openCalc {
+    display: none;
+}
+.mdtitle {
+    font-weight: 100;
+}
+.mb-name {
+    color: royalblue;
+    text-align: center;
+}
+.mb-image {
+    width: 30px;
+    border-radius: 50%;
+}
+.mb-back {
+    padding: 10px;
+    width: 10%;
+}
+.mb-display-name {
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+}
+.mb-dp {
+    padding: 10px;
+    width: 20%;
+}
+.mb-header {
+    margin-bottom: 20px;
+    background-color: white;
+}
+.mb-body {
+    padding: 10px 10px 50px 10px;
+    overflow-y: scroll;
+}
+.sentmsg {
+    text-align: right;
+}
+.m-sent {
+    text-align: justify;
+    background-color: #e8e8e8;
+    font-weight: 100;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 0.8em;
+    display: inline-block;
+    line-height: 2em;
+}
+.m-recv {
+    background-color: #2561d1;
+    color: white;
+    font-weight: 100;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    display: inline-block;
+    line-height: 2em;
+}
+.message-block {
+    height: 100vh;
+    overflow-y: scroll;
+    display: none;
+    background-color: white;
+}
+.mb-reply {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #e8e8e8;
+    position: fixed;
+    bottom: 0;
+    display: block;
+    width: 100%;
+}
+.mb-icon {
+    padding: 10px 20px 10px 0px;
+    cursor: pointer;
+    display: inline-block;
+}
+.reply-input {
+    font-size: 0.8em;
+    padding: 10px 20px;
+    font-weight: 100;
+    outline: none;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+}
+.reply {
+    display: inline-block;
+    padding-right: 10px;
+    width: 17%;
+}
+.chat-members {
+    cursor: pointer;
+}

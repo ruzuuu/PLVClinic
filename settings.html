@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<head>
+	<meta charset="UTF-8">
+	<title>Settings</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="icon" href="PLVCliniclogo.jpg" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    iv <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="dashboard.html" class="navbar-brand">Dashboard</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><span class="glyphicon glyphicon-log-out"></span>Logout</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </nav>
+        <br><br><br><br><br>
+        <div class="container">
+            <centre>
+            <div class="row">
+                <div class="col-xs-4">
+                    <h1>Change Password</h1>
+                    <form>
+                        <div class="form-group">
+                            <label for="old_password">Old Password</label>
+                        <input type="text" class="form-control" name="old_password">
+                        </div>
+                        <div class="form-group">
+                            <label for="new_password">New Password</label>
+                        <input type="text" class="form-control" name="new_password">
+                        </div>
+                        <div class="form-group">
+                            <label for="re-type">Re-type New Password</label>
+                        <input type="text" class="form-control" name="re-type">
+                        </div> 
+                        <input type="submit" value="change" class="btn btn-primary">   
+                    </form>   
+                </div>
+                <div class="container">
+                    <centre>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <h1>Theme</h1>
+                            <form>
+                                <div class="form-group">
+                                    <label for="old_password">Choose here</label>
+                                    <br>
+                                    <input type="checkbox" name="cbox" value="Default">
+                                    <label for="Default">Default</label><br>
+                                    <input type="checkbox" name="cbox" value="Dark">
+                                    <label for="Dark">Cark</label><br>
+                                    <input type="checkbox" name="cbox" value="Light">
+                                    <label for="Light">Light</label><br>
+                                    <input type="checkbox" name="cbox" value="Pastel">
+                                    <label for="Pastel">Pastel</label>   
+                                    <br>
+                                    <input type="submit" value="change" class="btn btn-primary">
+                            </form>   
+                        </div>
+                
+            </div>
+            </centre>
+        </div>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <br><br><br><br><br>
+        <footer class="display-6 fixed-bottom text-center text-white bg-dark fs-6 fw-lighter lh-base mt-2">
+            © Pamantasan ng Lungsod ng Valenzuela Clinic | All rights reserved 2023.
+        </footer>
+    </body>
+</html>

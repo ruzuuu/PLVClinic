@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Record Sheet</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   <link rel="icon" href="PLVCliniclogo.jpg" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Sign-In <span class="sr-only">(current)</span></a></li>
+      </ul>
+     <!--  <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  	<table style="width:100%">
+    <tr>
+      <th>Student ID</th>
+      <th id='tabletime'>Time In</th> 
+      <th id='tabletime'>Time Out</th> 
+      <th id='tabledate'>Date</th>
+      <th id='tablelastname'>Last Name</th>
+      <th id='tablefirstname'>First Name</th>
+      <th id='tablegender'>Gender</th>
+      <th id='tablenumber'>Contact Number</th>
+      <th id='tablecomplaint'>Health Complaint</th>
+      <th id='tablesigns'>Signs and Symptoms</th>
+      <th id='tablediagnosis'>Case Diagnosis</th>
+      <th id='tablemanagement'>Management</th>
+    </tr>
+    </table>
+
+    <table style="width:102%">
+      <tr>
+        <td>20-0703</td>
+        <td id='tabletime'>12:03 pm</td> 
+        <td id='tabletime'>12:06 pm</td> 
+        <td id='tabledate'>April 21, 2023</td>
+        <td id='tablelastname'>Morella</td>
+        <td id='tablefirstname'>Dorothy</td>
+        <td id='tablegender'>Female</td>
+        <td id='tablenumber'>09123456789</td>
+        <td id='tablecomplaint'>Diziness</td>
+        <td id='tablesigns'>Signs and Symptoms</td>
+        <td id='tablediagnosis'>Fever</td>
+        <td id='tablemanagement'>Medicine: Paracetamol</td>
+      </tr>
+      <tr>
+        <td>20-1120</td>
+        <td id='tabletime'>13:00 pm</td> 
+        <td id='tabletime'>16:00 pm</td> 
+        <td id='tabledate'>April 21, 2023</td>
+        <td id='tablelastname'>Maneja</td>
+        <td id='tablefirstname'>Ruth Anne</td>
+        <td id='tablegender'>Female</td>
+        <td id='tablenumber'>09876543212</td>
+        <td id='tablecomplaint'>Headache and Nausea</td>
+        <td id='tablesigns'>Splitting headache, diziness, and nausea</td>
+        <td id='tablediagnosis'>Optical Trauma - Left Eye</td>
+        <td id='tablemanagement'>Eye drops and rest</td>
+      </tr>
+      <tr>
+        <td>20-1125</td>
+        <td id='tabletime'>16:25 pm</td> 
+        <td id='tabletime'>16:27 pm</td> 
+        <td id='tabledate'>April 21, 2023</td>
+        <td id='tablelastname'>Odonzo</td>
+        <td id='tablefirstname'>Rey Angelo</td>
+        <td id='tablegender'>Male</td>
+        <td id='tablenumber'>09564738195</td>
+        <td id='tablecomplaint'>Heart burn</td>
+        <td id='tablesigns'>Stomach pains</td>
+        <td id='tablediagnosis'>Acid reflux</td>
+        <td id='tablemanagement'>Medicine: Antacid</td>
+      </tr>
+      <tr>
+        <td>20-1131</td>
+        <td id='tabletime'>17:49 pm</td> 
+        <td id='tabletime'>18:30 pm</td> 
+        <td id='tabledate'>April 14. 2023</td>
+        <td id='tablelastname'>Relucio</td>
+        <td id='tablefirstname'>Robi Bryant</td>
+        <td id='tablegender'>Male</td>
+        <td id='tablenumber'>09239814763</td>
+        <td id='tablecomplaint'>Backpain</td>
+        <td id='tablesigns'>Slightly curved posture</td>
+        <td id='tablediagnosis'>Backpain due to history of scoliosis</td>
+        <td id='tablemanagement'>Cold compress and rest</td>
+      </tr>
+      </table>
+    <pre id="content"></pre>
+
+    <div class="container-fluid row" id="special-div">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3 id="latenum1">Number of Today's Patients: 4 </h3>
+      </div>
+    </div>
+
+    <div class="container-fluid row">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <button id="backhome" class="btn btn-secondary btn-lg btn-block"><a id="d" href="dashboard.html">Back to Dashboard</a></button>
+
+      </div>
+    </div>
+    <footer class="display-6 fixed-bottom text-center text-white bg-dark fs-6 fw-lighter lh-base mt-2">
+      © Pamantasan ng Lungsod ng Valenzuela Clinic | All rights reserved 2023.
+  </footer>
+    <script
+    src="http://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="specific_student_script.js"></script>
+</body>
+</html>
